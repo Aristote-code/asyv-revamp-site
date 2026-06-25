@@ -22,6 +22,7 @@ import {
 } from "@phosphor-icons/react";
 import {
   asset,
+  videoAsset,
   events,
   faqs,
   impactStats,
@@ -246,7 +247,7 @@ function VideoHero({ onDonate, onNavigate, staticCapture = false }) {
         <video
           ref={videoRef}
           className="hero-media"
-          src="/video/mandali-hero.mp4"
+          src={videoAsset("mandali-hero.mp4")}
           poster={asset("hero-students.jpg")}
           autoPlay
           muted
@@ -421,13 +422,19 @@ function HomePage({ onNavigate, onDonate, staticCapture = false }) {
           className="split-panel visit-panel"
           type="button"
           onClick={() => onNavigate("/visit-the-village")}
+          style={{ backgroundImage: `url(${asset('students-walking.jpg')})`, backgroundPosition: 'center', backgroundSize: 'cover' }}
         >
           <span className="eyebrow">Visit the Village</span>
           <strong>Come and see the Village</strong>
           <span>Experience ASYV and the beauty of Rwanda for yourself.</span>
           <span className="panel-link">Plan your visit <ArrowRight size={15} aria-hidden /></span>
         </button>
-        <button className="split-panel give-panel" type="button" onClick={onDonate}>
+        <button 
+          className="split-panel give-panel" 
+          type="button" 
+          onClick={onDonate}
+          style={{ backgroundImage: `linear-gradient(135deg, rgba(7, 61, 49, 0.92), rgba(8, 44, 36, 0.98)), url(${asset('family.jpg')})`, backgroundPosition: 'center', backgroundSize: 'cover' }}
+        >
           <span className="eyebrow">Make an impact</span>
           <strong>Give a gift of possibility</strong>
           <span>Your support today helps a young person heal, learn, and lead.</span>
@@ -790,7 +797,7 @@ function DonateModal({ open, onClose }) {
 function Footer({ onNavigate }) {
   return (
     <section className="video-footer-wrapper">
-      <video className="footer-video-bg" src="/video/mandali-hero.mp4" autoPlay loop muted playsInline />
+      <video className="footer-video-bg" src={videoAsset("mandali-hero.mp4")} autoPlay loop muted playsInline />
       <div className="footer-video-shade" />
       
       <div className="newsletter-band">

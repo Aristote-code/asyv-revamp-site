@@ -143,17 +143,26 @@ video {
 
 .mega-menu {
   position: absolute;
-  top: 100%;
+  top: calc(100% + 20px);
   left: 50%;
   display: grid;
   min-width: 240px;
   transform: translateX(-50%);
   padding: 18px;
-  margin-top: 20px;
   background: rgba(255, 250, 241, 0.98);
   border: 1px solid var(--line);
   box-shadow: var(--shadow);
   color: var(--ink);
+}
+
+.mega-menu::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 0;
+  right: 0;
+  height: 20px;
+  background: transparent;
 }
 
 .mega-menu a {

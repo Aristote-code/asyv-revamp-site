@@ -1,4 +1,5 @@
-export const asset = (name) => `/assets/${name}`;
+export const asset = (name) => `${import.meta.env.BASE_URL}assets/${name}`;
+export const videoAsset = (name) => `${import.meta.env.BASE_URL}video/${name}`;
 
 export const navGroups = [
   {
