@@ -2,7 +2,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: "/asyv-revamp-site/",
+  base: "/",
   optimizeDeps: {
     include: ["react", "react-dom/client"],
   },

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" width="280" height="60">
+  <circle cx="25" cy="30" r="16" fill="#005A36" />
+  <text x="25" y="39" font-family="'Georgia', 'Times New Roman', serif" font-weight="bold" font-size="24" fill="#FFF" text-anchor="middle">T</text>
+  <text x="55" y="41" font-family="'Georgia', 'Times New Roman', serif" font-weight="800" font-size="28" fill="#000">The New Times</text>
+</svg>

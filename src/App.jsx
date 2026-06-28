@@ -402,6 +402,25 @@ function HomePage({ onNavigate, onDonate, staticCapture = false }) {
 
       <ImpactBand />
 
+      <section className="featured-in-section">
+        <div className="featured-card">
+          <h2 className="featured-title">The Agahozo-Shalom Youth Village has been featured in...</h2>
+          <div className="logos-grid">
+            <div className="logo-card" title="CNN"><img src={asset("logos/cnn.svg")} alt="CNN Logo" /></div>
+            <div className="logo-card" title="ELLE"><img src={asset("logos/elle.svg")} alt="ELLE Logo" /></div>
+            <div className="logo-card" title="Forbes"><img src={asset("logos/forbes.svg")} alt="Forbes Logo" /></div>
+            <div className="logo-card" title="i24 News"><img src={asset("logos/i24news.svg")} alt="i24 News Logo" /></div>
+            <div className="logo-card" title="JTA"><img src={asset("logos/jta.svg")} alt="JTA Logo" /></div>
+            <div className="logo-card" title="KT Press"><img src={asset("logos/ktpress.svg")} alt="KT Press Logo" /></div>
+            <div className="logo-card" title="National Geographic"><img src={asset("logos/natgeo.svg")} alt="National Geographic Logo" /></div>
+            <div className="logo-card" title="The New Times"><img src={asset("logos/thenewtimes.svg")} alt="The New Times Logo" /></div>
+            <div className="logo-card" title="Reuters"><img src={asset("logos/reuters.svg")} alt="Reuters Logo" /></div>
+            <div className="logo-card" title="Tablet"><img src={asset("logos/tablet.svg")} alt="Tablet Logo" /></div>
+            <div className="logo-card" title="Teen Vogue"><img src={asset("logos/teenvogue.svg")} alt="Teen Vogue Logo" /></div>
+          </div>
+        </div>
+      </section>
+
       <section className="feature-story">
         <div className="feature-copy">
           <p className="eyebrow">Stories from the Village</p>

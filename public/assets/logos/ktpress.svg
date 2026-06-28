@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 70" width="240" height="70">
+  <rect x="5" y="5" width="60" height="60" rx="12" fill="#CC0000" />
+  <text x="35" y="47" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="34" fill="#FFF" text-anchor="middle">KT</text>
+  <text x="78" y="48" font-family="'Inter', 'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="36" fill="#000" letter-spacing="0.5">PRESS</text>
+</svg>
