@@ -247,7 +247,7 @@ function VideoHero({ onDonate, onNavigate, staticCapture = false }) {
         <video
           ref={videoRef}
           className="hero-media"
-          src={videoAsset("mandali-hero.mp4")}
+          src={videoAsset("asyv-culture.mp4")}
           poster={asset("hero-students.jpg")}
           autoPlay
           muted
@@ -379,7 +379,7 @@ function HomePage({ onNavigate, onDonate, staticCapture = false }) {
       </section>
 
       <section className="photo-break" aria-label="The Village">
-        <img src={asset("village-view.jpg")} alt="A wide view of the ASYV campus in Rwanda" />
+        <img src={asset("village-view.webp")} alt="A wide view of the ASYV campus in Rwanda" />
       </section>
 
       <section className="model-section">
@@ -452,7 +452,7 @@ function HomePage({ onNavigate, onDonate, staticCapture = false }) {
           className="split-panel give-panel" 
           type="button" 
           onClick={onDonate}
-          style={{ backgroundImage: `linear-gradient(135deg, rgba(7, 61, 49, 0.92), rgba(8, 44, 36, 0.98)), url(${asset('family.jpg')})`, backgroundPosition: 'center', backgroundSize: 'cover' }}
+          style={{ backgroundImage: `linear-gradient(135deg, rgba(7, 61, 49, 0.92), rgba(8, 44, 36, 0.98)), url(${asset('family.webp')})`, backgroundPosition: 'center', backgroundSize: 'cover' }}
         >
           <span className="eyebrow">Make an impact</span>
           <strong>Give a gift of possibility</strong>
@@ -673,7 +673,7 @@ function EventsPage() {
             with students, alumni, and staff.
           </p>
         </div>
-        <img src={asset("family.jpg")} alt="" />
+        <img src={asset("family.webp")} alt="" />
       </section>
       <section className="events-list">
         <div className="section-inner">
@@ -816,8 +816,6 @@ function DonateModal({ open, onClose }) {
 function Footer({ onNavigate }) {
   return (
     <section className="video-footer-wrapper">
-      <video className="footer-video-bg" src={videoAsset("mandali-hero.mp4")} autoPlay loop muted playsInline />
-      <div className="footer-video-shade" />
       
       <div className="newsletter-band">
         <div>

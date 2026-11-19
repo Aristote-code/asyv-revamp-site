@@ -186,7 +186,7 @@ export const pages = [
     title: "A village built around belonging.",
     intro:
       "Agahozo-Shalom Youth Village is a safe, nurturing community where vulnerable Rwandan youth receive the education, care, and relationships they need to thrive.",
-    image: asset("family.jpg"),
+    image: asset("family.webp"),
     quote: "Healing begins when a young person knows they are safe, known, and expected to flourish.",
     sections: [
       {
@@ -209,7 +209,7 @@ export const pages = [
     title: "Whole-child support. Lifelong impact.",
     intro:
       "The ASYV model is intentionally holistic: home, school, healing, enrichment, and leadership work together so students can build bright futures.",
-    image: asset("campus-life.jpg"),
+    image: asset("campus-life.webp"),
     quote: "A student is never only a student. They are a whole person, held by a whole village.",
     sections: [
       {
@@ -255,7 +255,7 @@ export const pages = [
     title: "A model that reaches beyond the Village.",
     intro:
       "ASYV's work contributes to Rwanda's broader future by preparing young leaders, educators, and changemakers.",
-    image: asset("village-view.jpg"),
+    image: asset("village-view.webp"),
     quote: "When students thrive, their families and communities feel the ripple.",
     sections: [
       {
@@ -324,7 +324,7 @@ export const pages = [
     title: "A global family around one Village.",
     intro:
       "ASYV is sustained by donors, institutional partners, foundations, volunteers, and ambassadors who believe in the power of holistic care.",
-    image: asset("changemakers.png"),
+    image: asset("students-walking.jpg"),
     quote: "Support is not a transaction. It is a relationship with the future.",
     sections: [
       {
@@ -347,7 +347,7 @@ export const pages = [
     title: "Transparency that honors trust.",
     intro:
       "ASYV shares reports, financial information, and accountability materials so supporters can see how gifts serve students.",
-    image: asset("village-view.jpg"),
+    image: asset("village-view.webp"),
     quote: "Clear stewardship is part of caring for the Village.",
     sections: [
       {
@@ -370,7 +370,7 @@ export const pages = [
     title: "Come and see the Village.",
     intro:
       "Experience ASYV's beauty, student life, and daily rhythms in Rwanda through a thoughtful visit planned with the team.",
-    image: asset("village-view.jpg"),
+    image: asset("village-view.webp"),
     quote: "The Village is best understood by walking through it slowly.",
     sections: [
       {
@@ -417,7 +417,7 @@ export const pages = [
     title: "Invite your circle into the Village.",
     intro:
       "Create a fundraiser around a birthday, milestone, event, or community campaign and help more people discover ASYV.",
-    image: asset("family.jpg"),
+    image: asset("family.webp"),
     quote: "The most powerful invitation often comes from someone who already cares.",
     sections: [
       {
@@ -440,7 +440,7 @@ export const pages = [
     title: "Shape futures beyond your lifetime.",
     intro:
       "Legacy gifts help secure the Village for future generations of students who will need care, education, and belonging.",
-    image: asset("village-view.jpg"),
+    image: asset("village-view.webp"),
     quote: "A legacy gift is a promise carried forward.",
     sections: [
       {
@@ -486,7 +486,7 @@ export const pages = [
     title: "Serve, learn, and grow with the Village.",
     intro:
       "Fellows support student life while gaining hands-on experience in education, youth development, operations, and nonprofit leadership.",
-    image: asset("campus-life.jpg"),
+    image: asset("campus-life.webp"),
     quote: "A fellowship at ASYV is both contribution and formation.",
     sections: [
       {
@@ -534,7 +534,7 @@ export const pages = [
     title: "Let us know how to reach you.",
     intro:
       "Questions about giving, visiting, partnerships, careers, or the Village can start here.",
-    image: asset("family.jpg"),
+    image: asset("family.webp"),
     quote: "The best next step is often a simple conversation.",
     sections: [
       {
